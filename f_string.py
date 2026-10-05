@@ -39,3 +39,15 @@ print(message)
 
 message = f"\n{player['person']} has {2*6} coins left."
 print(message)
+
+############################
+# you can pass formatting options to f-strings as well
+
+num = 10 
+print(f"\n2.15 times {num} is {2.15*num:.2f}\n")    # prints 2 decimal places
+
+for num in range (1,11):
+    print(f"2.15 times {num} is {2.15*num:.2f}")    
+
+for num in range (1,11):
+    print(f"{num} divided by 4.51 is {num/4.51:.2%}")    
