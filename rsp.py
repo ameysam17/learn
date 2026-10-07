@@ -37,14 +37,14 @@ while playagain:
     else:
         print("🐍 python wins!")
 
-playagain = input("\nplay again? \nY for yes, \nN for Quit \n\n")
+    playagain = input("\nplay again? \nY for yes, \nN for Quit \n\n")
 
-if playagain.lower() == "y":
-    playagain = True
-else: 
-    print("\nThanks for playing! Goodbye!👋")
-    print("\n🥳🥳🥳🥳🥳")
-    playagain = False
-    #break 
+    if playagain.lower() == "y":
+        playagain = True
+    else: 
+        print("\nThanks for playing! Goodbye!👋")
+        print("\n🥳🥳🥳🥳🥳")
+        playagain = False
+        #break 
 
-sys.exit("Goodbye!👋")    
+    sys.exit("Goodbye!👋")    
